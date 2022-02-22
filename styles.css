@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+.header-container{
+    background: #1f2932;
+    padding: 20px 150px;
+    height: 200px;
+}
+.navigation .logo{
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+.header-links ul {
+    float: right;
+}
+.header-links ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
