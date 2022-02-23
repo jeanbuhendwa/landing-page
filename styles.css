@@ -3,6 +3,7 @@
     margin: 0px;
     font-family: sans-serif;
     color: whitesmoke;
+    text-transform: capitalize;
 }
 .header-container{
     background: #1f2932;
@@ -62,4 +63,80 @@
 .brand-hero .hero-image img{
     width: 450px;
     height: 250px;
+}
+
+.section1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+.section1-container .section1-text h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.section1-container .section1-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 10px;
+}
+.section1-container .section1-boxes .box{
+    width: 120px;
+    height: 120px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+.section2-container{
+    padding: 80px 200px;
+    background-color: #e5e7eb;
+}
+.section2-container p{
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+    font-weight: 200;
+    color: #303d4e;
+}
+.section2-container h3{
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 25px;
+    text-align: end;
+    padding: 15px 5px;
+}
+.section3-container{
+    padding: 60px 180px;
+}
+.section3-container .call-container{
+    padding: 30px 60px;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section3-container .call-container .call-container-text h2,
+.section3-container .call-container .call-container-text p{
+    color: whitesmoke;
+}
+.section3-container .call-container .call-container-button button{
+    font-size: 22px;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 5px 15px;
+    background-color: #3882f6;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.footer-container{
+    padding: 30px 80px;
+    background-color: #1f2932;
+    text-align: center;
+    font-weight: 300;
 }
